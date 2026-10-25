@@ -1,0 +1,7 @@
+Referencia de funciones que deben portarse desde el ZIP original Windows:
+- TikTokLive Python events: CommentEvent, GiftEvent, LikeEvent, FollowEvent, ShareEvent, JoinEvent.
+- Filtro inicial de entradas de 3 s y cooldown de 45 s por usuario en la versión recibida.
+- Estado de suscripción solo si el evento aporta un booleano explícito; nunca adivinar.
+- YouTube Data API v3: búsqueda de directo público activo, chat, contador público de espectadores cuando se exponga, eventos de membresía/Super Chat según API y cuota.
+- Prioridad de mensajes recientes y sonidos personalizados exclusivos para entradas TikTok.
+Fuente original examinada: Moorty_Voice_TikTok_Sonidos_Entrada_FIX.zip.
